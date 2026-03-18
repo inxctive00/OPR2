@@ -1,0 +1,14 @@
+Vytvořte systém pro správu dopravních přestupků.
+
+[TO-DO]
+Policista prochází jednotlivé lokace a kontroluje v nich auta. Systém, který policista používá eviduje, zda auta v dané lokaci neporušují předpisy určené značkami.
+Každá lokace může mít více značek. Dopravní značky, které mohou být zákazové (např. zakázáno parkování), směrové (vpravo, vlevo, rovně) nebo omezující rychlost.
+Lokace, na kterých se nacházejí dopravní značky využívají auta, která provádějí různé akce (parkování, otáčení, překračování rychlosti).
+
+Implementujte třídy reprezentující tyto prvky systému. (hint: pro dopravní značky využij dědičnost)
+Implementujte třídu pro správu pokut. Tato třída by měla mít metodu pro kontrolu přestupků,která pro dané auto provádí kontrolu a vrací seznam pokut, pokud auto porušilo nějaké pravidlo.
+Pokuta je udělena, pokud auto provádí akci, která je zakázána na dané lokaci nebo pokud auto překračuje povolenou rychlost na dané lokaci a na dané lokaci je zákaz překračování rychlosti.
+
+#TESTY
+Implementujte unit testy, které ověří správnost chování této třídy pro různé situace,
+včetně situace, kdy auto překračuje rychlost v lokaci, kde není zakázáno překračování rychlosti.
